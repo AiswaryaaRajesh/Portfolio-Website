@@ -105,7 +105,7 @@ Preloader
 .preload-finish {
     opacity: 0;
     pointer-events: none;
-    transition-delay: 0.1s; /*CHANGE TO 5S*/
+    transition-delay: 5s;
 }
 
 .dot-stretching {
