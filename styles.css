@@ -18,6 +18,19 @@
         font-size: 1.5rem;
     }
 
+    .imgCartoonDescri{
+        height: 200px;
+    }
+
+    .descrbanner{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    
+    .projectsmarquee{
+        font-size: 3rem;
+    }
+
 }
 
 /*large screen */
@@ -30,6 +43,19 @@
 
     .sidepanel-left li>a{
         font-size: 2.5rem;
+    }
+
+    .imgCartoonDescri{
+        height: 450px;
+    }
+
+    .descrbanner{
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .projectsmarquee{
+        font-size: 5rem;
     }
 
 }
@@ -79,7 +105,7 @@ Preloader
 .preload-finish {
     opacity: 0;
     pointer-events: none;
-    transition-delay: 5s;
+    transition-delay: 0.1s; /*CHANGE TO 5S*/
 }
 
 .dot-stretching {
@@ -239,11 +265,30 @@ Main Content
 .picdescr{
     margin-top: 8rem;
     padding: 2rem;
-    background-color: #e4e1f3;
 }
 
-.divround{
-    border-radius: 20px;
-    border: #000000 solid 2px;
-    
+.imgCartoonDescri{
+    background-size: contain;
+}
+
+/* Marquee */
+.holder {
+    background:#ffffff;
+    padding:0.5rem;
+    overflow: hidden;
+}
+
+.projectsmarquee {
+    animation : slide 10s linear infinite;
+    text-align: center;
+}
+  
+@keyframes slide {
+    0% {
+        transform: translatex(100%)
+    }
+
+    100% {
+        transform: translatex(-100%)
+    }
 }
