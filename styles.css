@@ -31,6 +31,26 @@
         font-size: 3rem;
     }
 
+    
+    .webdevprojectlist{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wdprojbox{
+        height: 65vw ;
+    }
+
+
+}
+
+/*Medium Screen */
+@media only screen and (min-width: 600px) {
+
+    .wdprojbox{
+        height: 45vw ;
+    }
+
 }
 
 /*large screen */
@@ -58,6 +78,14 @@
         font-size: 5rem;
     }
 
+    .webdevprojectlist{
+        display: flex;
+    }
+
+    .wdprojbox{
+        height: 25vw ;
+    }
+
 }
 
 *{
@@ -66,6 +94,9 @@
     border: border-box;
 }
 
+body{
+    background-color: #AF9EE6;
+}
 
 a{
     text-decoration: none;
@@ -271,7 +302,7 @@ Main Content
     background-size: contain;
 }
 
-/* Marquee */
+/* Marquee 
 .holder {
     background:#ffffff;
     padding:0.5rem;
@@ -292,3 +323,41 @@ Main Content
         transform: translatex(-100%)
     }
 }
+*/
+
+.projectsmarquee {
+    text-align: center;
+}
+
+.wdprojbox{
+    border: none;
+}
+.wdprojbox:hover{
+    border: #000000 solid 3px;
+}
+
+.godrej{
+    background-image: url("./godrej.png");
+    background-color: #5fa2d8;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.spotify{
+    background-image: url("./spotify.png");
+    background-color: #64e08f;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.amazon{
+    background-image: url("./amazon.png");
+    background-color: #edb265;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
