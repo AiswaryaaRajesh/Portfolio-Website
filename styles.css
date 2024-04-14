@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
+html{
+    background-color: #ffffff;
+}
+
 /*small screen */
 @media screen and (max-width: 992px){
     .sidepanel-left ul{
@@ -30,8 +34,23 @@
     .projectsmarquee{
         font-size: 3rem;
     }
-
     
+    .bannertitle{
+        font-size: 1.5rem;
+    }
+
+    .bannerbg{
+        width: 10rem;
+        height: 5rem;
+        margin-left: -5rem;
+    
+    }
+    
+    .textb{
+        margin-top: -3.5rem;
+        width: 10rem;
+    }
+
     .webdevprojectlist{
         display: flex;
         flex-direction: column;
@@ -46,6 +65,21 @@
 
 /*Medium Screen */
 @media only screen and (min-width: 600px) {
+
+    .bannertitle{
+        font-size: 3rem;
+    }
+
+    .bannerbg{
+        width: 25rem;
+        height: 15rem;
+        margin-left: -10rem;
+    }
+    
+    .textb{
+        margin-top: -13.5rem;
+        width: 23rem;
+    }
 
     .wdprojbox{
         height: 45vw ;
@@ -76,6 +110,22 @@
 
     .projectsmarquee{
         font-size: 5rem;
+    }
+
+    .bannertitle{
+        font-size: 4rem;
+    }
+
+    .bannerbg{
+        width: 30rem;
+        height: 20rem;
+        margin-left: -17rem;
+    
+    }
+    
+    .textb{
+        margin-top: -16.5rem;
+        width: 25rem;
     }
 
     .webdevprojectlist{
@@ -136,7 +186,7 @@ Preloader
 .preload-finish {
     opacity: 0;
     pointer-events: none;
-    transition-delay: 5s;
+    transition-delay: 2s;
 }
 
 .dot-stretching {
@@ -213,8 +263,9 @@ Preloader
 
 
 .header{
+    height: 7rem;
     background-color: #ffdcc6;
-    border-bottom: black 2px solid;
+    border-bottom: black 4px solid;
 }
 
 /* -----------------------------------------------------------
@@ -294,13 +345,61 @@ Sidepanel
 Main Content
 -----------------------------------------------------------*/
 .picdescr{
-    margin-top: 8rem;
+    width: 100%;
+    margin-top: 6rem;
     padding: 2rem;
+    background-color: #DBDFEA;
 }
 
 .imgCartoonDescri{
     background-size: contain;
 }
+
+.bannertext{
+    padding: 0 5rem;
+}
+
+.bannerimg{
+    width: 100%;
+    z-index: 20;
+}
+
+
+.bannerbg{
+    position: relative;
+    z-index: 0;
+    background-color: #8e69b1;
+    opacity: 70%;
+
+}
+
+.textb{
+    position: absolute;
+    z-index: 100;
+    color: #000000;
+}
+
+/*
+.bannerbg{
+    position: relative;
+    z-index: 0;
+    background-color: #8e69b1;
+    opacity: 70%;
+    width: 35rem;
+    height: 22rem;
+    margin-left: -10rem;
+
+}
+
+.textb{
+    position: absolute;
+    z-index: 100;
+    margin-top: -17rem;
+    width: 27rem;
+    color: #000000;
+}
+*/
+
 
 /* Marquee 
 .holder {
@@ -325,8 +424,8 @@ Main Content
 }
 */
 
-.projectsmarquee {
-    text-align: center;
+#webdevproj{
+    padding-top: 9rem;
 }
 
 .wdprojbox{
@@ -337,7 +436,7 @@ Main Content
 }
 
 .godrej{
-    background-image: url("./godrej.png");
+    background-image: url("./WebDev/godrej.png");
     background-color: #5fa2d8;
     background-size: contain;
     background-repeat: no-repeat;
@@ -345,7 +444,7 @@ Main Content
 }
 
 .spotify{
-    background-image: url("./spotify.png");
+    background-image: url("./WebDev/spotify.png");
     background-color: #64e08f;
     background-size: contain;
     background-repeat: no-repeat;
@@ -353,11 +452,14 @@ Main Content
 }
 
 .amazon{
-    background-image: url("./amazon.png");
+    background-image: url("./WebDev/amazon.png");
     background-color: #edb265;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
+/* Digital Art Grid */
+.imgDigArt{
+    width: 100%;
+}
