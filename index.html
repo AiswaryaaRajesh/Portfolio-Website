@@ -15,12 +15,12 @@
     </head>
     <body> 
 
-        <!-- Preloader -->
+        <!-- Preloader
         <div id="preloader" class="d-flex flex-column justify-content-center align-items-center">
             <p>Aiswaryaa Rajesh</p>
             <div class="my-3 dot-stretching"></div>
         </div>
-        <!-- End Preloader -->
+        End Preloader -->
 
         <!-- Header -->
         <header>
@@ -32,8 +32,8 @@
                         <!-- Logo -->
                         <div class="col-2 d-flex align-items-center">
                             <div class="logo">
-                                <a href="#">
-                                    <img class="logo" src="./Logo Footer.png" alt="Website Logo with Footer" height="40px">
+                                <a href="./index.html">
+                                    <img class="logo" src="./Logo Footer.png" alt="Website Logo with Footer" height="50px">
                                 </a>
                             </div>
                         </div>
@@ -49,9 +49,9 @@
                                         <!-- Sidepanel Left -->
                                         <div class="sidepanel-left col-8">
                                             <ul>
-                                                <li class="bold my-4"><a href="#">Home</a></li>
-                                                <li class="bold my-4"><a href="#webdevproj">WebDev</a></li>
-                                                <li class="bold my-4"><a href="#">Digital Art</a></li>
+                                                <li class="bold my-4"><a href="./index.html">Home</a></li>
+                                                <li class="bold my-4"><a href="./webdevindex.html">WebDev</a></li>
+                                                <li class="bold my-4"><a href="./DigitalArtIndex.html">Digital Art</a></li>
                                                 <li class="bold my-4"><a href="#">Posters</a></li>
                                                 <li class="bold my-4"><a href="#">Contact Me</a></li>
                                             </ul>
@@ -99,42 +99,52 @@
         <!-- End header -->
 
         <!-- Pic and Descri-->
-        <div class="container picdescr col-12 d-flex align-items-center justify-content-between">
-            <div class="col-4 d-flex justify-content-center">
-                <img class="imgCartoonDescri" src="./Cartoon me.png" alt="Aiswaryaa Image">
-            </div>
-            <div class="col-8 d-flex justify-content-center">
-                <p class="descrbanner"> Hi! I am Aiswaryaa Rajesh, a digital artist, animator, and developer. I enjoy creating meaningful and fun art to convey stories and discover new perpectives.</p>
+        <div class="picdescr">
+            <div class="container col-12 d-flex align-items-center justify-content-between">
+                <div class="col-4 d-flex justify-content-center">
+                    <img class="imgCartoonDescri" src="./Cartoon me.png" alt="Aiswaryaa Image">
+                </div>
+                <div class="col-8 d-flex justify-content-center">
+                    <p class="descrbanner"> Hi! I am Aiswaryaa Rajesh, a digital artist, animator, and developer. I enjoy creating meaningful and fun art to convey stories and discover new perpectives.</p>
+                </div>
             </div>
         </div>
-        <!-- End Pic and Descri-->
-
-        <!--Projects Web-Dev -->
-        <div id="webdevproj" class="container mt-5 holder">
-            <div class="bold projectsmarquee">WEB DEVELOPMENT PROJECTS</div>
-            <a id="webdevproj"></a>
-            <div class="webdevprojectlist">
-                <div class="webdevproject col-lg-4 col-12 px-2 py-2">
-                    <a href="https://aiswaryaarajesh.github.io/Godrej-Furniture-Store-Websites/index.html#" target="_blank">
-                        <div class="godrej wdprojbox"></div>
-                    </a>
-                </div>
-                <div class="webdevproject col-lg-4 col-12 px-2 py-2">
-                    <a href="https://aiswaryaarajesh.github.io/Spotify-Clone/" target="_blank">
-                        <div class="spotify wdprojbox"></div>
-                    </a>
-                </div>
-                <div class="webdevproject col-lg-4 col-12 px-2 py-2">
-                    <a href="https://aiswaryaarajesh.github.io/Amazon-Home-Page-Clone-UI/" target="_blank">
-                        <div class="amazon wdprojbox"></div>
-                    </a>
-                </div>
-            </div>
+        <!-- End Pic and Descri-->      
         
+        <!-- Banners -->
+        <div class="banners mt-4">
+            <div class="container">
+                <!-- WebDev Project -->
+                <a href="./webdevindex.html" target="_blank">
+                    <div class="mt-5 d-flex align-items-center">
+                        <img class="bannerimg col-6 px-4 mx-2" src="./Banners/WebDevBanner.png" alt="Web Development Banner">
+                        <div class="bannerText col-6">
+                            <div class="bannerbg"></div>
+                            <div class="textb d-block align-items-center">
+                                <p class="bannertitle text-center">WEB-DEV</p>
+                                <p class="d-lg-block d-md-block d-none text-center px-3">Check out the various Web Development projects that I have created. Most of these are responsive to various screen sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- End WebDev Project -->
+
+                <!-- Digital Art-->
+                <a href="./DigitalArtIndex.html" target="_blank">
+                    <div class="mt-5 d-flex align-items-center">
+                        <img class="bannerimg col-6 px-4 mx-2" src="./Banners/DigiArtBanner.png" alt="Digital Art Banner">
+                        <div class="bannerText col-6">
+                            <div class="bannerbg"></div>
+                            <div class="textb d-block align-items-center">
+                                <p class="bannertitle text-center">WEB-DEV</p>
+                                <p class="d-lg-block d-md-block d-none text-center px-3">Check out the various Web Development projects that I have created. Most of these are responsive to various screen sizes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>    
         </div>
-        <!--End Projects Web-Dev -->
-
-        
+        <!-- End Banners -->
 
         <script src="script.js" async defer></script>
     </body>
