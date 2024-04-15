@@ -1,8 +1,7 @@
 /* General */
-.fontface{
-    url: (https://fonts.googleapis.com/css2?family=Salsa&display=swap);
-    url: (https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap);
-}
+
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
 html{
     background-color: #ffffff;
@@ -11,7 +10,7 @@ html{
 /*small screen */
 @media screen and (max-width: 992px){
     #preloader p {
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
     }
     
@@ -72,7 +71,7 @@ html{
 /*Medium Screen */
 @media only screen and (min-width: 600px) {
     #preloader p {
-        font-size: 3.2rem;
+        font-size: 3rem;
         text-align: center;
     }
 
