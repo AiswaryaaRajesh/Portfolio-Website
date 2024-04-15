@@ -382,7 +382,7 @@ Main Content
     position: relative;
     z-index: 0;
     background-color: #8F76C7;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 .projects:hover .bannerbg{
@@ -395,51 +395,6 @@ Main Content
     z-index: 100;
     color: #000000;
 }
-
-/*
-.bannerbg{
-    position: relative;
-    z-index: 0;
-    background-color: #8e69b1;
-    opacity: 70%;
-    width: 35rem;
-    height: 22rem;
-    margin-left: -10rem;
-
-}
-
-.textb{
-    position: absolute;
-    z-index: 100;
-    margin-top: -17rem;
-    width: 27rem;
-    color: #000000;
-}
-*/
-
-
-/* Marquee 
-.holder {
-    background:#ffffff;
-    padding:0.5rem;
-    overflow: hidden;
-}
-
-.projectsmarquee {
-    animation : slide 10s linear infinite;
-    text-align: center;
-}
-  
-@keyframes slide {
-    0% {
-        transform: translatex(100%)
-    }
-
-    100% {
-        transform: translatex(-100%)
-    }
-}
-*/
 
 #webdevproj{
     padding-top: 9rem;
