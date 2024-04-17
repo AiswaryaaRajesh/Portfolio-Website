@@ -47,12 +47,12 @@
                                         
                                         <!-- Sidepanel Left -->
                                         <div class="sidepanel-left col-8">
-                                            <ul>
+                                            <ul class="mt-3 pt-3">
                                                 <li class="bold my-4"><a href="./index.html">Home</a></li>
                                                 <li class="bold my-4"><a href="./webdevindex.html">WebDev</a></li>
                                                 <li class="bold my-4"><a href="./DigitalArtIndex.html">Digital Art</a></li>
                                                 <li class="bold my-4"><a href="#">Posters</a></li>
-                                                <li class="bold my-4"><a href="#">Contact Me</a></li>
+                                                <li class="bold my-4"><a href="#contact">Contact Me</a></li>
                                             </ul>
                                         </div>
                                         <!-- End Sidepanel Left -->
@@ -60,8 +60,8 @@
                                         <!-- Sidepanel Right -->
                                         <div class="sidepanel-right d-flex justify-content-center col-4">
                                             <!-- Sidepanel Close -->
-                                            <a href="javascript:void(0)" class="d-block closebtn" onclick="closeNav()">
-                                                <div class="sidepanel-menu-close d-flex justify-content-center align-items-baseline">
+                                            <a href="javascript:void(0)" class="d-block closebtn =" onclick="closeNav()">
+                                                <div class="sidepanel-menu-close mt-3 pt-3 d-flex justify-content-center align-items-baseline">
                                                     <p class="pe-3 bold">CLOSE</p>
                                                     <i class="fa-solid fa-xmark"></i>
                                                 </div>
@@ -87,13 +87,10 @@
                             </div>
                         </div>
                         <!-- End Sidepanel-->
-
-                        
                     </div>
-                    
                 </div>
             </div>
-        <!-- End Header for mobile -->
+            <!-- End Header for mobile -->
         </header>
         <!-- End header -->
 
@@ -101,7 +98,7 @@
         <a class="mt-5 pt-5" id="digitalArt"></a>
         <div class="container pt-5 mt-5">
             <!-- Digital Art-->
-            <div class="bold projectsmarquee text-center text-decoration-underline">DIGITAL ART</div>
+            <div class="bold projectsmarquee text-center">DIGITAL ART</div>
             <div class="d-lg-flex">
                 <div class="col-lg-6 col-12 m-2">
                     <img class="imgDigArt m-2" src="./DigitalArt/Freshly Squeezed.png" alt="Freshly squeezed logo">
@@ -117,7 +114,7 @@
             </div>
             <!-- End Digital Art-->
             <!-- Miles Comic-->
-            <div class="projectsmarquee text-center text-decoration-underline">COMIC</div>
+            <div class="pt-5 projectsmarquee text-center">COMIC</div>
             <div class="d-lg-flex">
                 <img class="col-lg-6 imgDigArt m-2" src="./DigitalArt/Comic/1.png" alt="Miles Morales Father Day Slide 1">
                 <img class="col-lg-6 imgDigArt m-2" src="./DigitalArt/Comic/2.png" alt="Miles Morales Father Day Slide 2">
@@ -126,6 +123,49 @@
             <!-- End Miles Comic-->
         </div>
         <!-- End Digital Art Grid-->
+
+        <!-- Footer-->
+        <footer id="contact" class="footer footer-sticky">
+            <div class="py-2 footerUpper d-flex align-items-center justify-content-center">
+                <img src="./Aiswaryaa Designs Logo purple.png" alt="Aiswaryaa Designs Logo" height="50px">
+            </div>
+            <div class="footerLower">
+                <div class="py-3 container">
+                    <!-- SocialMedia -->
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="socialLink col-4 d-flex justify-content-center">
+                            <a class="p-2 d-flex align-items-center justify-content-center" href="https://www.instagram.com/design._.station?igsh=ODR1bWpieG41a3Ew" target="_blank">
+                                <img src="./ContactLogo/instagram.svg" alt="Instagram Logo" width="30px">
+                                <p class="d-md-block d-none ms-1 mt-4">design._.station</p>
+                            </a>
+                        </div>
+                        <div class="socialLink col-4 d-flex justify-content-center">
+                            <a class="p-2 d-flex align-items-center justify-content-center" href="https://www.linkedin.com/in/aiswaryaa-rajesh-436261207/" target="_blank">
+                                <img src="./ContactLogo/linkedin.svg" alt="Instagram Logo" width="30px">
+                                <p class="d-md-block d-none  ms-1 mt-4">aiswaryaa-rajesh</p>
+                            </a>
+                        </div>
+                        <div class="socialLink col-4 d-flex justify-content-center">
+                            <a class="p-2 d-flex align-items-center justify-content-center" href="mailto:aiswaryaa.rajesh@gmail.com" target="_blank">
+                                <img src="./ContactLogo/gmail.svg" alt="Instagram Logo" width="30px">
+                                <p class="d-md-block d-none  ms-1 mt-4">E-Mail</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End SocialMedia -->
+                    
+                    <!-- Copyright -->
+                    <div class="pt-2 col-12 footerTrademark d-flex align-items-center justify-content-center ">
+                        <p class="d-none d-md-block">All content Copyright </p>
+                        <img class="pb-3 mx-2" src="./ContactLogo/copyright.svg" alt="Copyright Logo" width="15px">
+                        <p>2024 Aiswaryaa Rajesh Portfolio</p>
+                    </div>
+                    <!-- End Copyright -->
+                </div>
+            </div>
+        
+        </footer>
+        <!-- End Footer -->
 
         <script src="script.js" async defer></script>
     </body>
