@@ -1,10 +1,20 @@
 /* General */
 
-@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Salsa&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap);
 
 html{
     background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000000;
 }
 
 /*small screen */
@@ -155,10 +165,6 @@ html{
     margin: 0px;
     font-family: 'Exo';
     border: border-box;
-}
-
-body{
-    background-color: #AF9EE6;
 }
 
 a{
@@ -359,7 +365,9 @@ Main Content
     width: 100%;
     margin-top: 6rem;
     padding: 2rem;
-    background-color: #b9b6dc;
+    /*
+    background-color: #b9b6dc;*/
+    background-color: #e2ddf4;
 }
 
 .imgCartoonDescri{
@@ -379,12 +387,13 @@ Main Content
 .bannerbg{
     position: relative;
     z-index: 0;
-    background-color: #8F76C7;
+    /*background-color: #8F76C7;*/
+    background-color: #ab96db;
     opacity: 80%;
 }
 
 .projects:hover .bannerbg{
-    background-color: #8F76C7;
+    background-color: #ab96db;
     opacity: 100%;
 }
 
@@ -432,4 +441,33 @@ Main Content
 /* Digital Art Grid */
 .imgDigArt{
     width: 100%;
+}
+
+/*---------------------------------------------
+FOOTER
+---------------------------------------------*/
+footer{
+    background-color: #ffdcc6;
+    border-top: black 4px solid;
+}
+
+.footerUpper{
+    /*background-color: #e96c1f;*/
+    background-color: #ffdcc6;
+}
+
+.footerLower{
+    background-color: #ffc099;
+}
+
+.socialLink a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.socialLink a:hover{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 620;
 }
